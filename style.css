@@ -1,0 +1,38 @@
+body {
+  background-color: #91eead;
+  margin:0;
+}
+
+h1 {
+  color: rgb(7, 29, 8);
+  margin-top: 30px;
+  background-color: cornsilk;
+}
+
+#show_sketch {
+  float: right;
+}
+
+canvas {
+  animation-name: exam;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-top: 50px;
+  border: 5px solid rgb(145, 243, 223);
+  border-radius: 20px;
+}
+
+@keyframes exam {
+  from {
+    box-shadow: 1px 1px 38px rgb(154, 248, 178);
+  }
+
+  to {
+    box-shadow: 1px 1px 38px rgb(240, 241, 152);
+  }
+}
+
+p {
+  padding-top: 10px;
+  font-size: 25px;
+}
